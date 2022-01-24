@@ -45,10 +45,6 @@ public class CustomerServiceImpl implements CustomerService{
     // This Will Create New Customers.
     @Override
     public Customer createCustomer(Customer customer) {
-
-    if(customer.getFullName() == null || customer.getAge() == 0 || customer.getAddress() == null)
-        throw new CustomerNotCreatedException();
-
     return customerJPARepository.save(customer);
     }
 
