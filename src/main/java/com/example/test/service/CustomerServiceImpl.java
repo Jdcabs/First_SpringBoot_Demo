@@ -3,7 +3,6 @@ package com.example.test.service;
 import java.util.List;
 import java.util.Optional;
 
-import com.example.test.globalexceptionhandling.CustomerNotCreatedException;
 import com.example.test.globalexceptionhandling.CustomerNotFoundException;
 import com.example.test.model.Customer;
 import com.example.test.repository.CustomerJPARepository;
