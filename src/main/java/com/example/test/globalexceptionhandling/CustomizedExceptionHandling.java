@@ -22,14 +22,4 @@ public class CustomizedExceptionHandling extends ResponseEntityExceptionHandler{
         ResponseEntity<Object> entity = new ResponseEntity<>(response, HttpStatus.NOT_FOUND);
         return entity;
     }
-
-    @ExceptionHandler(CustomerNotCreatedException.class)
-    public ResponseEntity<Object> handleExceptions ( CustomerNotCreatedException exception, WebRequest webRequest) {
-        RespondRequest respondRequest = new RespondRequest();
-        respondRequest.setMessage("Customer not created, some problems accured, please check it carefully");
-        respondRequest.setLocalDate(LocalDateTime.now());
-
-        ResponseEntity<Object> entity = new ResponseEntity<>(respondRequest, HttpStatus.INTERNAL_SERVER_ERROR);
-        return entity;
-    }
 }
