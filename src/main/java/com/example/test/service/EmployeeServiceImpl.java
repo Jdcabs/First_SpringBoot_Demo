@@ -67,6 +67,8 @@ public class EmployeeServiceImpl implements EmployeeService {
 		}
 	}
 
+	// Finders
+
 	@Override
 	public Employees findByFullName(String firstName) {
 		return employeeJPARepository.findByFullName(firstName);
