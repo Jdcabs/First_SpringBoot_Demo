@@ -24,11 +24,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class EmployeeController {
 
-    @Autowired
-    private EmployeeService eService;
     
-//    @Autowired
-//    private EmployeeJPARepository employeeJpa;
+    private final EmployeeService eService;
+    
+    public EmployeeController(EmployeeService empService) {
+        this.eService = empService;
+    }
+
+
+//  @Autowired
+//  private EmployeeJPARepository employeeJpa;
     
     @Value("${app.name}")
     private String appName;
@@ -62,9 +67,8 @@ public class EmployeeController {
     }
 
     // HTTP Method that can Update the Employee Table
-    @PutMapping("/employees/{id}")
+    @PutMapping("/employees/{id}") 
     public Employees updateEmployees(@PathVariable Long id, @RequestBody Employees employees) {
-        employees.setId(id);
         return eService.updateEmployeeDetails(id, employees);
     }
 
