@@ -60,7 +60,7 @@ public class EmployeeServiceImpl implements EmployeeService {
 	public Employees updateEmployeeDetails(Long id, Employees employees) {
 		Optional<Employees> checkForTheID = employeeJPARepository.findById(id);
 
-		if(checkForTheID.isPresent() == true){
+		if(checkForTheID.isPresent()){
 			employees.setId(id);
 			return employeeJPARepository.save(employees);
 		}else {
