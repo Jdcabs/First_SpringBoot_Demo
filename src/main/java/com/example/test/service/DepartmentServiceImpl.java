@@ -2,10 +2,12 @@ package com.example.test.service;
 
 import com.example.test.model.Department;
 import com.example.test.repository.DepartmentJPARepository;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class DepartmentServiceImpl implements DepartmentService{
 
     private final DepartmentJPARepository departmentJPARepository;

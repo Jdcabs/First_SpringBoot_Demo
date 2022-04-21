@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 
-@Controller
-@RequestMapping("api/v1")
+@RestController
+@RequestMapping("/api/v1")
 public class DepartmentController {
 
     private final DepartmentService departmentService;
