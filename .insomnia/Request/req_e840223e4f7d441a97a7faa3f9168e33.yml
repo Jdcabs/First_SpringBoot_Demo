@@ -1,0 +1,21 @@
+_id: req_e840223e4f7d441a97a7faa3f9168e33
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520576011
+created: 1642388117637
+url: "{{ _.base_url }}/version"
+name: Get Employee Full Name
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077505.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

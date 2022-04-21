@@ -1,0 +1,31 @@
+_id: req_bf28c625c9bc4d3c8e81a639b98465cb
+type: Request
+parentId: fld_356594866eb74a00a9d09a72f0e8fb86
+modified: 1650520494361
+created: 1642928720017
+url: "{{ _.base_url }}/customer/update/55"
+name: Update Customer By id
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"fullName": "Cabal, John David",
+    		"age": 22,
+    		"address": "Concepcion Uno"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_faeb609179d34ed3bd64d1cada3fcb3d
+authentication: {}
+metaSortKey: -1650520271325.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_29f562255b294f96b02ba9dcfc8aa3bc
+type: Request
+parentId: fld_356594866eb74a00a9d09a72f0e8fb86
+modified: 1650520486553
+created: 1641552106430
+url: "{{ _.base_url }}/customers?pageNumber=0&pageSize=5"
+name: Get Customers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650520271275.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

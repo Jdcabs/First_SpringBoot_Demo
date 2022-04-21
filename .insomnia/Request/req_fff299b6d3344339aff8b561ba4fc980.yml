@@ -1,0 +1,26 @@
+_id: req_fff299b6d3344339aff8b561ba4fc980
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520565627
+created: 1641348807876
+url: "{{ _.base_url }}/employees?id=1"
+name: Delete Employee
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_679821899f824ae59fa355e507e37bc8
+authentication: {}
+metaSortKey: -1641390077455.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

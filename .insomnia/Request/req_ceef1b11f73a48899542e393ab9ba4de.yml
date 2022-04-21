@@ -1,0 +1,21 @@
+_id: req_ceef1b11f73a48899542e393ab9ba4de
+type: Request
+parentId: fld_356594866eb74a00a9d09a72f0e8fb86
+modified: 1650520501560
+created: 1641668105802
+url: "{{ _.base_url }}/customer?id=22"
+name: Get Customer By ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650520271425.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

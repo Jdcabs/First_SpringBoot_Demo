@@ -1,0 +1,14 @@
+_id: env_c7f71ac59e4f4d8a85faf26e7ad28d9a
+type: Environment
+parentId: env_794a25999a22cedb0eb0ccf52c11ba05d4096294
+modified: 1650519795685
+created: 1641349664368
+name: First_Spring_Boot_Demo
+data:
+  base_url: localhost:9090/api/v1
+dataPropertyOrder:
+  "&":
+    - base_url
+color: null
+isPrivate: false
+metaSortKey: 1641349664368

@@ -1,0 +1,32 @@
+_id: req_2456d79f86e14df881a2d333eba28837
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650521231759
+created: 1641351007061
+url: "{{ _.base_url }}/employee/add"
+name: Create Employee
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fullName": "Example 1",
+    	"fullAddress": "Concepcion Uno",
+    	"emailAddress": "Example@gmail.com",
+    	"employeeDepartment": "Java Developer"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_df2b881970d742b28f4ef095029a158a
+authentication: {}
+metaSortKey: -1641390077405.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

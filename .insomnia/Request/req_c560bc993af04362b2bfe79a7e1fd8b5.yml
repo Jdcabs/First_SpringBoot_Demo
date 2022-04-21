@@ -1,0 +1,21 @@
+_id: req_c560bc993af04362b2bfe79a7e1fd8b5
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520580988
+created: 1642470894442
+url: "{{ _.base_url }}/employee/findtop10"
+name: Get Employee Top 10 Order By Asc
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077468
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

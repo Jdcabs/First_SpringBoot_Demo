@@ -1,0 +1,30 @@
+_id: req_8ae37da31b584170b62a43d6aa552ee0
+type: Request
+parentId: fld_57cfe440223b480d85518af4e9efc2e0
+modified: 1650521443279
+created: 1650519895250
+url: "{{ _.base_url }}/departments"
+name: Add Department
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"departmentName": "DevOps",
+    	"departmentCode": "dop101"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5f852212215f4704a013b4db70454719
+authentication: {}
+metaSortKey: -1650520324943
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

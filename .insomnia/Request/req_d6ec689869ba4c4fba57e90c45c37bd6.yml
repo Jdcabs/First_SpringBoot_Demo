@@ -1,0 +1,23 @@
+_id: req_d6ec689869ba4c4fba57e90c45c37bd6
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520584582
+created: 1642502561202
+url: "{{ _.base_url
+  }}/employee/filterByFullNameOrEmailAddress?fullName=kevin\\emailAddress=Jolli\
+  bee@gmail.com"
+name: Get Employee By Full Name Or Email Address
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077430.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

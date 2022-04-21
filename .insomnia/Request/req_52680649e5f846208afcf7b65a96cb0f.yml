@@ -1,0 +1,21 @@
+_id: req_52680649e5f846208afcf7b65a96cb0f
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520548603
+created: 1641348753708
+url: "{{ _.base_url }}/employees/11"
+name: Get Employee by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077255.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

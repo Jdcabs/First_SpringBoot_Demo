@@ -1,0 +1,21 @@
+_id: req_44f116496475456cbba0550a818c444e
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520553948
+created: 1641392104753
+url: "{{ _.base_url }}/employees/details?pageNumber=0&pageSize=10"
+name: Get Employee Details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077305.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

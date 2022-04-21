@@ -1,0 +1,32 @@
+_id: req_56335bd92bec4345a497cc3727b2f9be
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520558419
+created: 1641389072533
+url: "{{ _.base_url }}/employees/1"
+name: Update Employee
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"fullName": "angeles",
+    	"fullAddress": "Rizal",
+    	"emailAddress": "angeles@gmail.com",
+    	"employeeDepartment": "HR"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_3bcac2e7dc0d48e68d0389644cadd7c4
+authentication: {}
+metaSortKey: -1641390077355.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

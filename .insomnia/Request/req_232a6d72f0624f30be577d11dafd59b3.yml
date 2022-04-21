@@ -1,0 +1,22 @@
+_id: req_232a6d72f0624f30be577d11dafd59b3
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520582901
+created: 1642500407823
+url: "{{ _.base_url
+  }}/employee/filterByFullNameAndDepartment?fullName=jabe&department=Fast Food"
+name: Get Employee By Full Name and Department
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077461.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

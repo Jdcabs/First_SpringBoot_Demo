@@ -1,0 +1,31 @@
+_id: req_6b798847dd0245ffaf54a334c147d108
+type: Request
+parentId: fld_356594866eb74a00a9d09a72f0e8fb86
+modified: 1650520786483
+created: 1641645769950
+url: "{{ _.base_url }}/customers"
+name: Create Customer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "fullName": "John",
+    "age": 0,
+    "address": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_e5081f70b3a34e1f86e195a8ad7ec9be
+authentication: {}
+metaSortKey: -1650520271475.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

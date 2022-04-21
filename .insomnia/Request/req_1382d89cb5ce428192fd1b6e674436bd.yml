@@ -1,0 +1,21 @@
+_id: req_1382d89cb5ce428192fd1b6e674436bd
+type: Request
+parentId: fld_356594866eb74a00a9d09a72f0e8fb86
+modified: 1650520498378
+created: 1641668481192
+url: "{{ _.base_url }}/customer/delete?id=2"
+name: Delete Customer By ID
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650520271375.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

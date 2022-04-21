@@ -1,0 +1,21 @@
+_id: req_f3bb3fe058144d96bab5bdc6e134bbaf
+type: Request
+parentId: fld_da16261ac6314c0a8d8a98fe882953d4
+modified: 1650520587792
+created: 1642733544244
+url: "{{ _.base_url }}/employee/filterByKeyword?keyword=J"
+name: Get Fullname By Keyword
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641390077458.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
