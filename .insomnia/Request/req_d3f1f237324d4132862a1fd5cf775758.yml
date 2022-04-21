@@ -1,0 +1,21 @@
+_id: req_d3f1f237324d4132862a1fd5cf775758
+type: Request
+parentId: fld_57cfe440223b480d85518af4e9efc2e0
+modified: 1650522850321
+created: 1650522811431
+url: "{{ _.base_url }}/department/15"
+name: "Get Department By Id "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1650520325043
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
